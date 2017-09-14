@@ -8,14 +8,12 @@ The following How To is designed to be an alternative to the method above so tha
 
 The guide leverages heavily on the Zappa project.  
 Zappa is designed to build and deploy Python WSGI scripts to AWS Lambda.
-[GitHub - Miserlou/Zappa: Serverless Python Web Services]
-(https://github.com/Miserlou/Zappa)
+[GitHub - Miserlou/Zappa: Serverless Python Web Services](https://github.com/Miserlou/Zappa)
 
 *WARNING*, I don’t claim to be an expert in any of these areas so if you see a piece that is wrong or could be improved please let me know.
 
 Step 1:  You’ll need to sign up for an amazon account and install Boto3.
-[Quickstart — Boto 3 Docs 1.4.7 documentation]
-(http://boto3.readthedocs.io/en/latest/guide/quickstart.html#installation)
+[Quickstart — Boto 3 Docs 1.4.7 documentation](http://boto3.readthedocs.io/en/latest/guide/quickstart.html#installation)
 ``` py
 pip install boto3
 aws configure
@@ -30,8 +28,7 @@ aws_secret_access_key = YOUR_SECRET_KEY
 ```
 
 Step 2:  You’ll need to install Zappa.  There is excellent documentation on their GitHub site
-[GitHub - Miserlou/Zappa: Serverless Python Web Services]
-(https://github.com/Miserlou/Zappa#initial-deployments)
+[GitHub - Miserlou/Zappa: Serverless Python Web Services](https://github.com/Miserlou/Zappa#initial-deployments)
 ``` text 
 pip install zappa
 zappa init
@@ -40,19 +37,19 @@ zappa init
 During the init a series of questions will be asked.  Here is how I respond to those questions but your responses may vary.
 
 The first step names the end-point API.  I create my first end-point something_dev in this case maltego_dev
-![](Maltego%20Lambda%20How%20To/8045552B-5ECD-4EA0-85C1-86F4A0851CBF.png)
+![](/images/Maltego%20Lambda%20How%20To/8045552B-5ECD-4EA0-85C1-86F4A0851CBF.png)
 
 The second step reads the AWS credential file that was created when installing AWS boto3
-![](Maltego%20Lambda%20How%20To/BAA28B24-C536-4000-8E65-469A8553092B.png)
+![](/images/Maltego%20Lambda%20How%20To/BAA28B24-C536-4000-8E65-469A8553092B.png)
 
 The second step prompts you to name your s3 bucket where you source code will be uploaded to AWS
-![](Maltego%20Lambda%20How%20To/A800D5A0-7F63-45DF-9443-6CFBE4441852.png)
+![](/images/Maltego%20Lambda%20How%20To/A800D5A0-7F63-45DF-9443-6CFBE4441852.png)
 
 Naming your app
-![](Maltego%20Lambda%20How%20To/409B834B-B88F-4507-979F-FA6AF39502F5.png)
+![](/images/Maltego%20Lambda%20How%20To/409B834B-B88F-4507-979F-FA6AF39502F5.png)
 
 Region availability
-![](Maltego%20Lambda%20How%20To/A4B8E45F-76A9-4D81-BDBF-492BB986C874.png)
+![](/images/Maltego%20Lambda%20How%20To/A4B8E45F-76A9-4D81-BDBF-492BB986C874.png)
 
 And your output will a Zappa setting file named zappa_settings.json
 
@@ -72,7 +69,7 @@ Once the settings file is complete you can deploy the app to AWS and some magic 
 zappa deploy maltego_dev
 ```
 
-![](Maltego%20Lambda%20How%20To/241E8BF5-77F6-458C-8E35-B26848A4F739.png)
+![](/images/Maltego%20Lambda%20How%20To/241E8BF5-77F6-458C-8E35-B26848A4F739.png)
 
 At this point you have a empty Flask application sitting on Lambda.  Go ahead and test out the end point as this will be what you use when setting up your transform.  You should see a debug message but that will be taken care of when we start building our transforms.
 
@@ -118,10 +115,10 @@ Adding the following to the Paterva TDS Server.  You may need to refresh your Ma
 
 —Click Do not test URL—
 https://a3mwnt1kz9.execute-api.us-east-2.amazonaws.com/maltego_dev/stuff2stuff
-![](Maltego%20Lambda%20How%20To/67177052-903E-40D4-925B-C56D75021969.png)
+![](/images/Maltego%20Lambda%20How%20To/67177052-903E-40D4-925B-C56D75021969.png)
 
 Confirm Transforms Is Working
-![](Maltego%20Lambda%20How%20To/86DE640F-12D5-4110-ACA3-D3AC912C3FB3.png)
+![](/images/Maltego%20Lambda%20How%20To/86DE640F-12D5-4110-ACA3-D3AC912C3FB3.png)
 
 
 
