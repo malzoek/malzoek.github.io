@@ -117,7 +117,7 @@ Step 4:  Configure TDS to point to end-point
 
 Adding the following to the Paterva TDS Server.  You may need to refresh your Maltego Client to pull in the new transforms
 
-—Click Do not test URL—
+— Also when you add the transform Click Do not test URL—
 https://a3mwnt1kz9.execute-api.us-east-2.amazonaws.com/maltego_dev/stuff2stuff
 ![](/images/67177052-903E-40D4-925B-C56D75021969.png)
 
