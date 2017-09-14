@@ -1,4 +1,15 @@
 # Maltego Lambda How To
+
+TLDR;
+1.  Create VirtualEnv
+2.  pip install zappa
+3.  zappa init
+4.  zappa deploy
+5.  Add Flask Transform File (See Below)
+6.  zappa update
+7.  Populate Seed and Transfom on TDS
+
+
 When building Maltego transforms one important piece of the equation is the transformation server.
 
 One can get started building a transform server quickly by following the instructions here:
