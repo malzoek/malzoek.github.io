@@ -29,7 +29,9 @@ aws_secret_access_key = YOUR_SECRET_KEY
 
 Step 2:  You’ll need to install Zappa.  There is excellent documentation on their GitHub site
 [GitHub - Miserlou/Zappa: Serverless Python Web Services](https://github.com/Miserlou/Zappa#initial-deployments)
-``` text 
+``` text
+virtualenv maltego_lambda_test
+source maltego_lambda_test/bin/activate
 pip install zappa
 zappa init
 ```
