@@ -4,7 +4,7 @@ When building Maltego transforms one important piece of the equation is the tran
 One can get started building a transform server quickly by following the instructions here:
 [Transform Host Server Setup](https://docs.paterva.com/en/developer-portal/tds-transforms/transform-host-server-setup/)
 
-The following How To is designed to be an alternative to the method above so that one can eliminate the actual server by using Amazon’s Lambada, a service that runs code without the server.
+The following How To is designed to be an alternative to the method above so that one can eliminate the actual server by using Amazon’s Lambda, a service that runs code without the server.
 
 The guide leverages heavily on the Zappa project.  
 Zappa is designed to build and deploy Python WSGI scripts to AWS Lambda.
@@ -48,8 +48,7 @@ The second step prompts you to name your s3 bucket where you source code will be
 Naming your app
 ![](/images/409B834B-B88F-4507-979F-FA6AF39502F5.png)
 
-Region availability
-![](/imagesA4B8E45F-76A9-4D81-BDBF-492BB986C874.png)
+
 
 And your output will a Zappa setting file named zappa_settings.json
 
