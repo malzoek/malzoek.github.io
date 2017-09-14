@@ -37,19 +37,19 @@ zappa init
 During the init a series of questions will be asked.  Here is how I respond to those questions but your responses may vary.
 
 The first step names the end-point API.  I create my first end-point something_dev in this case maltego_dev
-![](/images/Maltego%20Lambda%20How%20To/8045552B-5ECD-4EA0-85C1-86F4A0851CBF.png)
+![](/images/8045552B-5ECD-4EA0-85C1-86F4A0851CBF.png)
 
 The second step reads the AWS credential file that was created when installing AWS boto3
-![](/images/Maltego%20Lambda%20How%20To/BAA28B24-C536-4000-8E65-469A8553092B.png)
+![](/images/BAA28B24-C536-4000-8E65-469A8553092B.png)
 
 The second step prompts you to name your s3 bucket where you source code will be uploaded to AWS
-![](/images/Maltego%20Lambda%20How%20To/A800D5A0-7F63-45DF-9443-6CFBE4441852.png)
+![](/images/A800D5A0-7F63-45DF-9443-6CFBE4441852.png)
 
 Naming your app
-![](/images/Maltego%20Lambda%20How%20To/409B834B-B88F-4507-979F-FA6AF39502F5.png)
+![](/images/409B834B-B88F-4507-979F-FA6AF39502F5.png)
 
 Region availability
-![](/images/Maltego%20Lambda%20How%20To/A4B8E45F-76A9-4D81-BDBF-492BB986C874.png)
+![](/imagesA4B8E45F-76A9-4D81-BDBF-492BB986C874.png)
 
 And your output will a Zappa setting file named zappa_settings.json
 
@@ -69,7 +69,7 @@ Once the settings file is complete you can deploy the app to AWS and some magic 
 zappa deploy maltego_dev
 ```
 
-![](/images/Maltego%20Lambda%20How%20To/241E8BF5-77F6-458C-8E35-B26848A4F739.png)
+![](/images/241E8BF5-77F6-458C-8E35-B26848A4F739.png)
 
 At this point you have a empty Flask application sitting on Lambda.  Go ahead and test out the end point as this will be what you use when setting up your transform.  You should see a debug message but that will be taken care of when we start building our transforms.
 
