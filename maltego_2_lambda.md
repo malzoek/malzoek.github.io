@@ -41,19 +41,19 @@ zappa init
 During the init a series of questions will be asked.  Here is how I respond to those questions but your responses may vary.
 
 The first step names the end-point API.  I create my first end-point something_dev in this case maltego_dev
-![](Maltego%20Lambda%20How%20To/8045552B-5ECD-4EA0-85C1-86F4A0851CBF.png)
+![](/images/8045552B-5ECD-4EA0-85C1-86F4A0851CBF.png)
 
 The second step reads the AWS credential file that was created when installing AWS boto3
-![](Maltego%20Lambda%20How%20To/BAA28B24-C536-4000-8E65-469A8553092B.png)
+![](/images/BAA28B24-C536-4000-8E65-469A8553092B.png)
 
 The second step prompts you to name your s3 bucket where you source code will be uploaded to AWS
-![](Maltego%20Lambda%20How%20To/A800D5A0-7F63-45DF-9443-6CFBE4441852.png)
+![](/images/A800D5A0-7F63-45DF-9443-6CFBE4441852.png)
 
 Naming your app
-![](Maltego%20Lambda%20How%20To/409B834B-B88F-4507-979F-FA6AF39502F5.png)
+![](/images/409B834B-B88F-4507-979F-FA6AF39502F5.png)
 
 Region availability
-![](Maltego%20Lambda%20How%20To/A4B8E45F-76A9-4D81-BDBF-492BB986C874.png)
+![](/images/A4B8E45F-76A9-4D81-BDBF-492BB986C874.png)
 
 And your output will a Zappa setting file named zappa_settings.json
 
@@ -119,10 +119,10 @@ Adding the following to the Paterva TDS Server.  You may need to refresh your Ma
 
 —Click Do not test URL—
 https://a3mwnt1kz9.execute-api.us-east-2.amazonaws.com/maltego_dev/stuff2stuff
-![](Maltego%20Lambda%20How%20To/67177052-903E-40D4-925B-C56D75021969.png)
+![](/images/67177052-903E-40D4-925B-C56D75021969.png)
 
 Confirm Transforms Is Working
-![](Maltego%20Lambda%20How%20To/86DE640F-12D5-4110-ACA3-D3AC912C3FB3.png)
+![](/images/86DE640F-12D5-4110-ACA3-D3AC912C3FB3.png)
 
 
 
