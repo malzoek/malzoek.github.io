@@ -114,10 +114,10 @@ Adding the following to the Paterva TDS Server.  You may need to refresh your Ma
 
 —Click Do not test URL—
 https://a3mwnt1kz9.execute-api.us-east-2.amazonaws.com/maltego_dev/stuff2stuff
-![](/images/Maltego%20Lambda%20How%20To/67177052-903E-40D4-925B-C56D75021969.png)
+![](/images/67177052-903E-40D4-925B-C56D75021969.png)
 
 Confirm Transforms Is Working
-![](/images/Maltego%20Lambda%20How%20To/86DE640F-12D5-4110-ACA3-D3AC912C3FB3.png)
+![](/images/86DE640F-12D5-4110-ACA3-D3AC912C3FB3.png)
 
 
 
