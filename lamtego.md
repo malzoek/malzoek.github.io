@@ -2,8 +2,7 @@
 When building Maltego transforms one important piece of the equation is the transformation server.
 
 One can get started building a transform server quickly by following the instructions here:
-[Transform Host Server Setup]
-(https://docs.paterva.com/en/developer-portal/tds-transforms/transform-host-server-setup/)
+[Transform Host Server Setup](https://docs.paterva.com/en/developer-portal/tds-transforms/transform-host-server-setup/)
 
 The following How To is designed to be an alternative to the method above so that one can eliminate the actual server by using Amazon’s Lambada, a service that runs code without the server.
 
