@@ -83,7 +83,7 @@ The next /stuff2stuff is the transform
 This endpoint will be used in the Paterva TDS
 https://a3mwnt1kz9.execute-api.us-east-2.amazonaws.com/maltego_dev/stuff2stuff
 
-T
+
 <span style="color:red">The following file needs to be named maltego_transforms.py to match your setting file</span>
 ``` python
 import requests
