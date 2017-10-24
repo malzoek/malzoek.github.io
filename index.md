@@ -8,3 +8,7 @@ mft_to_elk:  a set of files to push mft to ELK for quick search tasks
 ### Contributes To
 analyzemft @https://github.com/dkovar/analyzeMFT @dkovar
 
+### Getting Out There
+twitter https://twitter.com/malzoek
+Medum https://www.medium/@malzoek
+My Professional Site https://www.gsinger.io
