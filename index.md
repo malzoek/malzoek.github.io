@@ -10,6 +10,9 @@ TheHive:  Building Cortex Analyzers
 
 Docker:  Containerize secops/IR
 
+QradarCE:  Running CE on AWS
+
+
 ### Contributes To
 analyzemft @https://github.com/dkovar/analyzeMFT @dkovar
 
