@@ -6,6 +6,10 @@ malzoek:  a forensics tool to find malicious indicators in a memory image
 
 mft_to_elk:  a set of files to push mft to ELK for quick search tasks
 
+TheHive:  Building Cortex Analyzers
+
+Docker:  Containerize secops/IR
+
 ### Contributes To
 analyzemft @https://github.com/dkovar/analyzeMFT @dkovar
 
